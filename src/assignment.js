@@ -22,7 +22,7 @@ function sumOfNumbers(arrayOfNumbers) {
       var sum = starterNumber += arrayOfNumbers[i];
     }
     return sum;
-}
+};
 console.log(sumOfNumbers(array1));
 
 /**
@@ -43,7 +43,7 @@ function countEvenNumbers(arrayOfNumbers) {
         }
     })
     return arrayOfEvens.length;
-}
+};
 console.log(countEvenNumbers(array1));
 
 /**
