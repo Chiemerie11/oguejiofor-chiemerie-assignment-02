@@ -24,6 +24,7 @@ function sumOfNumbers(arrayOfNumbers) {
     return sum;
 };
 console.log(sumOfNumbers(array1));
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -45,6 +46,7 @@ function countEvenNumbers(arrayOfNumbers) {
     return arrayOfEvens.length;
 };
 console.log(countEvenNumbers(array1));
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
